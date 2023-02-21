@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+}
+/* Titulo de la Liga MX */
+body h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+/* Imagen de la Liga */
+img{
+    margin-left: 600px;
+}   
+/* Fondo */
+.fondo{
+    height: 100%;
+    width: 100%;
+    background-image: url(Img/EstadioAzul.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+/* recuadro del formulario de registro*/
+.recuadro{
+    width: 370px;
+    height: 455px;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* botones */
+.Botones{
+    padding: 10px 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    position: relative;
+    color: #fff;
+}
+/* fondo de los botones */
+#elegir{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 120px;
+    height: 10%;
+    background: linear-gradient(to right, rgb(0, 0, 134, 0.955), rgb(0, 0, 134, 0.955));
+    border-radius: 30px;
+    transition: 0.8s;
+}
+/* botones redes sociales */
+.redes-sociales{
+    margin: 35px;
+    text-align: center;
+}
+.redes-sociales img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: rgb(255, 255, 255);
+    cursor: pointer;
+}
+/*  Espacio entres los botones y el formulario */
+.Ingresar{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.8;
+}
+/* Botones del formulario */
+.Formulario{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(0, 0, 134, 0.955);
+    outline: none;
+    background: transparent;
+}
+/* Boton para acceder y saltar a la siguiente pagina */
+.Boton_inferior{
+    width: 85%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, rgb(0, 0, 134, 0.955), rgb(0, 0, 134, 0.955));
+    color: white;
+    border-radius: 15px;
+}
+/* Tipo de letras del formulario */
+span{
+    font-size: 12px;
+    bottom: 64px;
+}
+#login{
+    left: 50px;
+}
+#Registrar{
+    left: 450px;
+}

@@ -1,0 +1,273 @@
+/* Fondo */
+body{
+    background-image: url(Img/EstadioAzul.jpg);
+    background-size: 100%;
+}
+/* Recuadro blanco de la parte de arriba */
+.CBlanco{
+    width: 1535px;
+    height: 140px;
+    background-color: rgba(0, 0, 0, 0.332);
+    display: flex;
+}
+/* Movimiento del logo */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+}
+/* Logo de la LIga mx */
+.Logo{
+    margin-left: 70px;
+    margin-bottom: 300px;
+    position: absolute;
+    /* Para moverlo encima del rectangulo blanco */
+}
+/* Icono de ajustes */
+.Ajustes{
+    margin-left: 1250px;
+    margin-top: 82px;
+    position: absolute;
+    cursor: pointer; 
+    /* Se cambia el cursor al pasar por encima del icono */
+}
+/* Elemtos de la tabla de paginas */
+.Menu a{
+    font-size: x-large;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 0 30px;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* Cambio de color al poner el cursor en las opciones de las página */
+.Menu a:hover{
+    background-color: rgba(1, 1, 168, 0.559);
+    border-radius: 7px;
+}
+/* Icono de favoritos */
+.Favoritos{
+    margin-left: 1225px;
+    margin-top: 82px;
+    position: absolute;
+    cursor: pointer;
+}
+/* Diseño de la barra de búsqueda */
+.Buscar{
+    display: flex;
+    position: absolute;
+    left: 330px;
+    margin-top: 69px;
+}
+/* Espacio para la barra de búsqueda */
+.Buscar input{
+    width: 480px;
+    height: 40px;
+    background-color: rgba(235, 235, 235, 0.048);
+    border-radius: 12px;
+}
+/* Raya azul entre el recuadro blanco y el negro */
+.RAzul{
+    width: 1535px;
+    height: 5px;
+    background-color: rgba(0, 0, 134, 0.955)
+}
+/* Recuadro Negro de la parte baja del recuadro blanco */
+.CNegro{
+    width: 1535px;
+    height: 60px;
+    background-color: rgba(0, 0, 1, 0.722);
+    align-items: center;
+}
+h2{
+    color: rgb(0, 0, 0);
+}
+/* Boton de registrarse */
+.Registrarse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 30px;
+    background-color: rgba(3, 3, 180, 0.537);
+    border-radius: 15px;
+    position: absolute;
+    left: 1300px;
+    top: 80px;
+    cursor: pointer;
+}
+/* Cambio de color al poner el cursor encima del boton registrarse */
+.Registrarse:hover{
+    background-color: rgba(0, 0, 134, 0.827);
+}
+/* Cambia el color del texto normal */
+p{
+    color: rgb(255, 254, 254);
+}
+/* Cambia el color de los links */
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Se cambia la tipografía y el tamaño del texto */
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+/* Circulo del icono de lupa de búsqueda */
+.CLupa{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    background-color:rgb(21, 21, 171);
+    left: 768px;
+    margin-top: 65px;
+    border-radius: 50px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+/* Icono de la lupa de búsqueda */
+.Lupa{
+    position: absolute;
+    left: 12px;
+    margin-top: 10px;
+}
+/* Titulo de la Jornada 1 */
+.Jornada1{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 640px;
+    display: inline-block;
+}
+/* Partido 1 */
+.partido1{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    display: inline-block;
+}
+.partido2{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 450px;
+    display: inline-block;
+}
+.partido3{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 700px;
+    display: inline-block;
+}
+.partido4{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 950px;
+    display: inline-block;
+}
+.partido5{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 330px;
+    left: 1200px;
+    display: inline-block;
+}
+.partido6{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 200px;
+    display: inline-block;
+}
+.partido7{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 450px;
+    display: inline-block; 
+}
+.partido8{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 700px;
+    display: inline-block;
+}
+.partido9{
+    /* Recuadro */
+    list-style: none;
+    width: 150px;
+    height: 110px;
+    background: rgb(0, 0, 134, 0.955);
+    margin-bottom: 20px;
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 950px;
+    display: inline-block;
+}
+/* Letra de los partidos */
+li a{
+    cursor: pointer;
+    font-family: fantasy;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}    

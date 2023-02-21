@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FÚT MX</title>
+    <link rel="shorcout icon" href="Img/MX_logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- fondo de la pagina -->
+    <div class="fondo">
+        <!-- <h1> <br>REGISTRO LIGA MX</h1> -->
+        <img src="LIGA.png" width="170" > 
+        <div class="recuadro">
+                <div id="elegir"></div>
+                <!-- Botones de ingresar -->
+                <button type="button" class="Botones" onclick="login()">Iniciar Sesión</button>
+                <button type="button" class="Botones" onclick="Registrar()">Registrarse</button>
+            <!-- Botones redes sociales -->
+            <div class="redes-sociales">
+                <img src="Img/face.png" alt="icono_face">
+                <img src="Img/go.png" alt="icono google">
+                <img src="Img/apple.png" alt="icono iphone">
+            </div>
+            <!-- Primer formulario para ingresar -->
+            <form id="login" class="Ingresar">
+                <input type="text" class="Formulario" placeholder="Nombre de usuario" required>
+                <input type="password" class="Formulario" placeholder="Contraseña" required>
+                <!-- Cuadrito que recuerda al usuario la contraseña -->
+                <input type="checkbox" class="check-box"><span>Recordar Contraseña.</span>
+                <!-- Boton inferior de acceder -->
+                <button type="submit" class="Boton_inferior">Acceder</button>
+            </form>
+            <!-- Segundo formulario para registrarse -->
+            <form id="Registrar" class="Ingresar">
+                <input type="text" class="Formulario" placeholder="Nombre de usuario" required>
+                <input type="email" class="Formulario" placeholder="Correo" required>
+                <input type="password" class="Formulario" placeholder="Contraseña" required>
+                <!-- Cuadrito para que enmarque el usuario -->
+                <input type="checkbox" class="check-box"><span>Acepto los términos y condiciones.</span>
+                <!-- Boton infeior de registrarse -->
+                <button type="submit" class="Boton_inferior">Registrarse</button>
+            </form>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script>
+        var x = document.getElementById("login")
+        var y = document.getElementById("Registrar")
+        var z = document.getElementById("elegir")
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+        function Registrar(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="120px";
+        }
+    </script>
+</body>
+</html>
